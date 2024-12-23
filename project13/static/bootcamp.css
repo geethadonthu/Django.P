@@ -1,0 +1,141 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-color: black;
+}
+#navigation{
+    width:100%;
+    height:50px;
+    background-color: black;
+}
+#division{
+    color:white;
+    position: relative;
+    top:10px;
+}
+#anchor{
+    position: relative;
+    left:50%;
+    color:white;
+    margin-left: 30px;
+    text-decoration: none;
+}
+#button{
+    width:70px;
+    height:23px;
+    color:white;
+    background-color: aqua;
+    position: relative;
+    left:52%;
+}
+#section1{
+    width:100%;
+    height:350px;
+    border: 1px solid black;
+}
+#division1{
+    width:47%;
+    height:98%;
+    border:1px solid black;
+    float: left;
+    position: relative;
+    margin-left: 2%;
+}
+
+#division2{
+    width:47%;
+    height:98%;
+    border: 1px solid black;
+    float: left;
+
+}
+.head1{
+    font-size: 40px;
+    color:white;
+}
+#price1{
+    font-size: 30px;
+    color:white;
+}
+#span{
+    color:aqua;
+}
+#button1{
+    width:250px;
+    height:50px;
+    background-color: aqua;
+    color:white;
+    font-size: 27px;
+    border-radius: 10px;
+}
+.head2{
+    font-size: 80px;
+    color:white;
+    position: relative;
+    top:180px;
+    left:7%;
+}
+.butts{
+    width:300px;
+    height:50px;
+    background-color: gray;
+    border-radius: 25px;
+    color:white;
+    font-size: 25px;
+    position: relative;
+    top:200px;
+    left:10%;
+    margin-left: 5%;
+}
+#footer{
+    width:100%;
+    height:300px;
+    background-color: black;
+    color:white;
+    position: relative;
+    top:600px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color:green;
+}
+.foot_div{
+    width:25%;
+    height:100%;
+    float:left;
+    position: relative;
+    top:90px;
+    position: relative;
+    left:6%;
+}
+#line{
+    position: relative;
+    top:350px;
+}
+#line1{
+    position: relative;
+    top:700px;
+}
+#bottom{
+    width:100%;
+    height:70px;
+    background-color: black;
+    position: relative;
+    top:700px;
+}
+.bottom_tag{
+    text-align: center;
+    color: white;
+}
+#offer_head{
+    color:white;
+    position: relative;
+    top:45px;
+    left:4%;
+    font-size: 33px;
+}

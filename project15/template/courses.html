@@ -1,0 +1,152 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="{% static 'courses.css' %}">
+</head>
+<body>
+    <nav id="navigation">
+        <div id="division">🤶 Sheryians coding school
+            <a id="anchor" href="{% url 'myapp:home' %}">Home</a>
+            <a id="anchor" href="{% url 'myapp:courses' %}">Courses</a>
+            <a id="anchor" href="{% url 'myapp:bootcamp' %}">Bootcamp(Kodr)</a>
+            <a id="anchor" href="">Request Callback</a>
+            <button id="button">Sign in</button>
+        </div>
+    </nav>
+    <br>
+    <section id="sec1">
+        <div id="div1">
+            <p class="heading">We're not a <span class="span">course</span></p>
+            <p class="heading"><span class="span">factory</span></p>
+            <br>
+            <p id="small_head">We focus on courses that really help.</p>
+        </div>
+    </section>
+    <p id="head1">Courses which do work</p>
+    <br><br>
+    <section id="sec">
+        <div id="main_div">
+            <div class="link">
+                <a href="">
+                    <img id="pic1" src="{% static 'images/pic1.jpg' %}" alt="">
+                </a>
+            </div>
+            <div class="link">
+                <a href="">
+                    <img id="pic2" src="{% static 'images/pic2.webp' %}" alt="">
+                </a>
+            </div>
+            <div class="link">
+                <a href="">
+                    <img id="pic3" src="{% static 'images/pic3.jpg' %}" alt="">
+                </a>
+            </div>
+            <div class="link">
+                <a href="">
+                    <img id="pic4" src="{% static 'images/pic4.webp' %}" alt="">
+                </a>
+            </div>
+        </div>
+        <div id="main_div1">
+            <div class="tech">
+                <p class="cour">Front-End Domination:</p>
+                <p class="cour">Create Anything with Code</p>
+                <button class="lang">HINDI</button>
+            </div>
+            <div class="tech">
+                <p class="cour">Back-End Domination:</p>
+                <p class="cour">Create Efficient Back-End.</p>
+                <button class="lang">HINDI</button>
+            </div>
+            <div class="tech">
+                <p class="cour">Aptitute & Reasoning for</p>
+                <p class="cour">Campus Placements</p>
+                <button class="lang">HINGLISH</button>
+            </div>
+            <div class="tech">
+                <p class="cour">Java & DSA Domination</p>
+                <button class="lang">HINGLISH</button>
+            </div>
+        </div>
+        <div id="main_div2">
+            <div class="price">
+                <p class="price_dis"><span id="span">Limited Time Discount</span></p>
+                <h1 class="price_dis" id="price_font">₹ 4999 <strike> ₹9999</strike></h1>
+            </div>
+            <div class="price">
+                <p class="price_dis"><span id="span">Limited Time Discount</span></p>
+                <h1 class="price_dis" id="price_font">₹ 5999 <strike> ₹11999</strike></h1>
+            </div>
+            <div class="price">
+                <p class="price_dis"><span id="span">Black Friday Sale</span></p>
+                <h1 class="price_dis" id="price_font">₹ 999 <strike> ₹1500</strike></h1>
+            </div>
+            <div class="price">
+                <p class="price_dis"><span id="span">Limited Time Discount</span></p>
+                <h1 class="price_dis" id="price_font">₹ 4999 <strike> ₹9999</strike></h1>
+            </div>
+        </div>
+        <div id="main_div3">
+            <div class="view">
+                <button class="detail_button">View Details</button>
+            </div>
+            <div class="view">
+                <button class="detail_button">View Details</button>
+            </div>
+            <div class="view">
+                <button class="detail_button">View Details</button>
+            </div>
+            <div class="view">
+                <button class="detail_button">View Details</button>
+            </div>
+        </div>
+    
+    </section>
+    <footer>
+        <div id="footer">
+            <div class="foot_div">
+                <p>🤶</p><br>
+                <p>Let's connect with our socials</p>
+            </div>
+            <div class="foot_div">
+                <h4>COMPANY</h4><br>
+                <a href="">About Us</a><br><br>
+                <a href="">Support</a><br><br>
+                <a href="">Privacy Policy</a><br><br>
+                <a href="">Terms and Condition</a><br><br>
+                <a href="">Pricing and Refund</a><br><br>
+                <a href="">Hire From Us</a><br><br>
+                <a href="">Bug Bounty</a><br>
+            </div>
+            <div class="foot_div">
+                <h4>COMMUNITY</h4><br>
+                <a href="">Inertia</a><br><br>
+                <a href="">Discord</a>
+            </div>
+            <div class="foot_div">
+                <h4>Get In Touch</h4><br>
+                <a href="">+91 8109161752</a><br><br>
+                <a href="">+91 9691778470</a><br><br>
+                <a href="">hello@sheryianscom</a><br><br>
+                <a href="">
+                    <p>23-B,Indrapuri Sector C,</p>
+                    <p>Bhopal(MP),462021</p>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <hr id="line">
+    <hr id="line1">
+    <br>
+    <section>
+        <div id="bottom">
+            <h2 class="bottom_tag">Copyright @ 2024 Sheryians Pvt.Ltd.</h1>
+            <h2 class="bottom_tag">All Rights Reserved.</h1>
+        </div>
+    </section>
+</body>
+</html>

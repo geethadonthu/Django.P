@@ -1,0 +1,14 @@
+h1{
+    font-size: 20px;
+    background-color: darkseagreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+body{
+    background-color: darkseagreen;
+}
+
+#p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

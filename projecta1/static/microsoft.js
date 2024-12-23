@@ -1,0 +1,1 @@
+var document.getElementById("h1").innerText="BillGates"

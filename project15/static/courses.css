@@ -1,0 +1,243 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-color: black;
+}
+#navigation{
+    width:100%;
+    height:50px;
+    background-color: black;
+}
+#division{
+    color:white;
+    position: relative;
+    top:10px;
+}
+#anchor{
+    position: relative;
+    left:50%;
+    color:white;
+    margin-left: 30px;
+    text-decoration: none;
+}
+#button{
+    width:70px;
+    height:23px;
+    color:white;
+    background-color: aqua;
+    position: relative;
+    left:52%;
+}
+#sec1{
+    width:100%;
+    height:250px;
+    border:1px solid black;
+    position: relative;
+    top:150px;
+}
+#div1{
+    width:90%;
+    height:100%;
+    border:1px solid black;
+    position: relative;
+    left:5%;
+}
+.heading{
+    font-size: 60px;
+    color:white;
+}
+#small_head{
+    font-size: 20px;
+    color:white;
+}
+.span{
+    color:aqua;
+}
+#sec2{
+    width:100%;
+    height: 50px;
+    border: 1px solid yellow;
+    position: relative;
+    top:130px;
+}
+#cour_head{
+    position: relative;
+    top:-50px;
+    left:5%;
+}
+#sec{
+    width:95%;
+    height:600px;
+    border:2px solid black;
+    position: relative;
+    top:200px;
+    left:3%;
+    
+}
+#main_div{
+    width:100%;
+    height:200px;
+    border:1px solid black;
+    position: relative;
+    top:50px;
+    
+}
+#main_div1{
+    width:100%;
+    height:115px;
+    border: 1px solid black;
+    position: relative;
+    top:60px;
+}
+#main_div2{
+    width:100%;
+    height:80px;
+    border: 1px solid black;
+    position: relative;
+    top:80px;
+}
+#main_div3{
+    width:100%;
+    height:40px;
+    border:1px solid black;
+    position: relative;
+    top:95px;
+}
+.link{
+    width:22.5%;
+    height:100%;
+    background-color: aqua;
+    float: left;
+    margin-left: 2%;
+    border-radius: 15px 15px 0px 0px;
+}
+.tech{
+    width:22.5%;
+    height:100%;
+    background-color: gray;
+    float: left;
+    margin-left: 2%;
+}
+.price{
+    width:22.5%;
+    height:100%;
+    background-color: gray;
+    float: left;
+    margin-left: 2%;
+    border-radius: 0px 0px 15px 15px;
+}
+.view{
+    width:22.5%;
+    height:100%;
+    background-color: aqua;
+    float: left;
+    margin-left: 2%;
+    border-radius: 10px;
+}
+.cour{
+    color:white;
+    font-size: 25px;
+    position: relative;
+    left:5%;   
+}
+.lang{
+    border-radius: 5px;
+    color:black;
+    font-size: 15px;
+    width:90px;
+    height:25px;
+    position: relative;
+    left:5%;
+    border: none;
+    outline: none;
+    background-color: lightgrey;
+}
+.detail_button{
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: aqua;
+}
+.price_dis{
+    position: relative;
+    left:5%;
+    top:10px;
+}
+#price_font{
+    color:white;
+}
+#pic1{
+    width:100%;
+    height:100%;
+}
+#pic2{
+    width:100%;
+    height:100%;
+}
+#pic3{
+    width:100%;
+    height:100%;
+}
+#pic4{
+    width:100%;
+    height:100%;
+}
+#head1{
+    color:white;
+    position: relative;
+    top:200px;
+    left:5%;
+}
+#footer{
+    width:100%;
+    height:300px;
+    background-color: black;
+    color:white;
+    position: relative;
+    top:600px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color:green;
+}
+.foot_div{
+    width:25%;
+    height:100%;
+    float:left;
+    position: relative;
+    top:90px;
+    position: relative;
+    left:6%;
+}
+#line{
+    position: relative;
+    top:350px;
+}
+#line1{
+    position: relative;
+    top:700px;
+}
+#bottom{
+    width:100%;
+    height:70px;
+    background-color: black;
+    position: relative;
+    top:700px;
+}
+.bottom_tag{
+    text-align: center;
+    color: white;
+}
+#offer_head{
+    color:white;
+    position: relative;
+    top:45px;
+    left:4%;
+    font-size: 33px;
+}
